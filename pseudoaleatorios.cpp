@@ -2,6 +2,7 @@
 #include <ctime>
 #include <cmath>
 #include <iomanip>
+#include <cstdlib>
 using namespace std;
 
 int pseudoaleat(int seed){
