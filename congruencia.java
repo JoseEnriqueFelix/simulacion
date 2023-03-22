@@ -95,7 +95,7 @@ public class congruencia {
 	public static boolean esParYDivisible3o4(int num){
 		boolean par = num % 2 == 0; //true
 		boolean divisible3o4 = num % 3 == 0 || num % 5 == 0;   //true
-		return par && divisible3o4;
+		return par || divisible3o4;
 	}
 
 }
